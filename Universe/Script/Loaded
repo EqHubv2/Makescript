@@ -1,0 +1,339 @@
+
+local UI = {}
+
+-- // StarterGui.PLEASE MAN DON'T DELETE \\ --
+UI["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"))
+UI["1"]["Name"] = [[PLEASE MAN DON'T DELETE]]
+UI["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM \\ --
+UI["2"] = Instance.new("Frame", UI["1"])
+UI["2"]["BorderSizePixel"] = 0
+UI["2"]["BackgroundColor3"] = Color3.fromRGB(34, 34, 34)
+UI["2"]["Size"] = UDim2.new(0, 1410, 0, 468)
+UI["2"]["Position"] = UDim2.new(0.13166, 0, 0.21394, 0)
+UI["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["2"]["Name"] = [[HMMM]]
+UI["2"]["BackgroundTransparency"] = 0.5
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.UICorner \\ --
+UI["3"] = Instance.new("UICorner", UI["2"])
+UI["3"]["CornerRadius"] = UDim.new(0, 5)
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.Drag scrpt \\ --
+UI["4"] = Instance.new("LocalScript", UI["2"])
+UI["4"]["Name"] = [[Drag scrpt]]
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.EqHub \\ --
+UI["5"] = Instance.new("TextLabel", UI["2"])
+UI["5"]["BorderSizePixel"] = 0
+UI["5"]["BackgroundColor3"] = Color3.fromRGB(25, 25, 25)
+UI["5"]["TextSize"] = 26
+UI["5"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+UI["5"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["5"]["Size"] = UDim2.new(0, 1410, 0, 50)
+UI["5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["5"]["Text"] = [[Eq Hub]]
+UI["5"]["Name"] = [[EqHub]]
+UI["5"]["Position"] = UDim2.new(0, 0, -0.10684, 0)
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.EqHub.UICorner \\ --
+UI["6"] = Instance.new("UICorner", UI["5"])
+UI["6"]["CornerRadius"] = UDim.new(0, 5)
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.EqHub.Custom \\ --
+UI["7"] = Instance.new("Frame", UI["5"])
+UI["7"]["BorderSizePixel"] = 0
+UI["7"]["BackgroundColor3"] = Color3.fromRGB(50, 50, 50)
+UI["7"]["Size"] = UDim2.new(0, 1410, 0, 7)
+UI["7"]["Position"] = UDim2.new(0, 0, 0.86, 0)
+UI["7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["7"]["Name"] = [[Custom]]
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.Place id real \\ --
+UI["8"] = Instance.new("TextLabel", UI["2"])
+UI["8"]["BorderSizePixel"] = 0
+UI["8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["8"]["TextSize"] = 14
+UI["8"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["8"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["8"]["BackgroundTransparency"] = 0.7
+UI["8"]["Size"] = UDim2.new(0, 1134, 0, 17)
+UI["8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["8"]["Text"] = [[Can't Loading this]]
+UI["8"]["Name"] = [[Place id real]]
+UI["8"]["Position"] = UDim2.new(0.10554, 0, 0.1453, 0)
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.Place id real.idplace \\ --
+UI["9"] = Instance.new("LocalScript", UI["8"])
+UI["9"]["Name"] = [[idplace]]
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.Copy place id \\ --
+UI["a"] = Instance.new("TextButton", UI["2"])
+UI["a"]["BorderSizePixel"] = 0
+UI["a"]["TextSize"] = 14
+UI["a"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["a"]["BackgroundColor3"] = Color3.fromRGB(53, 53, 53)
+UI["a"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Italic)
+UI["a"]["Size"] = UDim2.new(0, 97, 0, 40)
+UI["a"]["Name"] = [[Copy place id]]
+UI["a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["a"]["Text"] = [[Copy]]
+UI["a"]["Position"] = UDim2.new(0.91892, 0, 0.12393, 0)
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.Copy place id.Copyid \\ --
+UI["b"] = Instance.new("LocalScript", UI["a"])
+UI["b"]["Name"] = [[Copyid]]
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.Your CFrame \\ --
+UI["c"] = Instance.new("TextLabel", UI["2"])
+UI["c"]["BorderSizePixel"] = 0
+UI["c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["c"]["TextSize"] = 14
+UI["c"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Italic)
+UI["c"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["c"]["BackgroundTransparency"] = 1
+UI["c"]["Size"] = UDim2.new(0, 111, 0, 34)
+UI["c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["c"]["Text"] = [[Your CFrame :]]
+UI["c"]["Name"] = [[Your CFrame]]
+UI["c"]["Position"] = UDim2.new(0.02151, 0, 0.29487, 0)
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.CFrame \\ --
+UI["d"] = Instance.new("TextLabel", UI["2"])
+UI["d"]["BorderSizePixel"] = 0
+UI["d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["d"]["TextSize"] = 14
+UI["d"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal)
+UI["d"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["d"]["BackgroundTransparency"] = 0.7
+UI["d"]["Size"] = UDim2.new(0, 1134, 0, 17)
+UI["d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["d"]["Text"] = [[Can't Loading this]]
+UI["d"]["Name"] = [[CFrame]]
+UI["d"]["Position"] = UDim2.new(0.10554, 0, 0.3141, 0)
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.CFrame.Cframeofplayer \\ --
+UI["e"] = Instance.new("LocalScript", UI["d"])
+UI["e"]["Name"] = [[Cframeofplayer]]
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.Copy CFrame of player \\ --
+UI["f"] = Instance.new("TextButton", UI["2"])
+UI["f"]["BorderSizePixel"] = 0
+UI["f"]["TextSize"] = 14
+UI["f"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["f"]["BackgroundColor3"] = Color3.fromRGB(53, 53, 53)
+UI["f"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Italic)
+UI["f"]["Size"] = UDim2.new(0, 97, 0, 40)
+UI["f"]["Name"] = [[Copy CFrame of player]]
+UI["f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["f"]["Text"] = [[Copy]]
+UI["f"]["Position"] = UDim2.new(0.91892, 0, 0.28205, 0)
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.Copy CFrame of player.CopyCf \\ --
+UI["10"] = Instance.new("LocalScript", UI["f"])
+UI["10"]["Name"] = [[CopyCf]]
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.Place id \\ --
+UI["11"] = Instance.new("TextLabel", UI["2"])
+UI["11"]["TextWrapped"] = true
+UI["11"]["Active"] = true
+UI["11"]["BorderSizePixel"] = 0
+UI["11"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["11"]["TextSize"] = 14
+UI["11"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Bold, Enum.FontStyle.Italic)
+UI["11"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["11"]["BackgroundTransparency"] = 1
+UI["11"]["Size"] = UDim2.new(0, 140, 0, 34)
+UI["11"]["ClipsDescendants"] = true
+UI["11"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["11"]["Text"] = [[Place id :]]
+UI["11"]["Selectable"] = true
+UI["11"]["Name"] = [[Place id]]
+UI["11"]["Position"] = UDim2.new(0.0233, 0, 0.12393, 0)
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.Dex (new) \\ --
+UI["12"] = Instance.new("TextButton", UI["2"])
+UI["12"]["BorderSizePixel"] = 3
+UI["12"]["TextSize"] = 14
+UI["12"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["12"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["12"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+UI["12"]["Size"] = UDim2.new(0, 200, 0, 50)
+UI["12"]["BackgroundTransparency"] = 0.9
+UI["12"]["Name"] = [[Dex (new)]]
+UI["12"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["12"]["Text"] = [[Dex (New)]]
+UI["12"]["Position"] = UDim2.new(0.02285, 0, 0.85464, 0)
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.Dex (new).New dex \\ --
+UI["13"] = Instance.new("LocalScript", UI["12"])
+UI["13"]["Name"] = [[New dex]]
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.Dex (old) \\ --
+UI["14"] = Instance.new("TextButton", UI["2"])
+UI["14"]["BorderSizePixel"] = 3
+UI["14"]["TextSize"] = 14
+UI["14"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["14"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["14"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+UI["14"]["Size"] = UDim2.new(0, 200, 0, 50)
+UI["14"]["BackgroundTransparency"] = 0.9
+UI["14"]["Name"] = [[Dex (old)]]
+UI["14"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["14"]["Text"] = [[ Dex (old)]]
+UI["14"]["Position"] = UDim2.new(0.19195, 0, 0.85464, 0)
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.Dex (old).Old dex \\ --
+UI["15"] = Instance.new("LocalScript", UI["14"])
+UI["15"]["Name"] = [[Old dex]]
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.simple spy \\ --
+UI["16"] = Instance.new("TextButton", UI["2"])
+UI["16"]["BorderSizePixel"] = 3
+UI["16"]["TextSize"] = 14
+UI["16"]["TextColor3"] = Color3.fromRGB(255, 255, 255)
+UI["16"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255)
+UI["16"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal)
+UI["16"]["Size"] = UDim2.new(0, 200, 0, 50)
+UI["16"]["BackgroundTransparency"] = 0.9
+UI["16"]["Name"] = [[simple spy]]
+UI["16"]["BorderColor3"] = Color3.fromRGB(0, 0, 0)
+UI["16"]["Text"] = [[SimpleSpy v3]]
+UI["16"]["Position"] = UDim2.new(0.35855, 0, 0.85464, 0)
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.simple spy.Simple spy v3 \\ --
+UI["17"] = Instance.new("LocalScript", UI["16"])
+UI["17"]["Name"] = [[Simple spy v3]]
+
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.Drag scrpt \\ --
+local function SCRIPT_4()
+local script = UI["4"]
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0
+	local dragStart = nil
+	local starPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(starPos.X.Scale, starPos.X.Offset + delta.X, starPos.Y.Scale, starPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}) :Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+			dragToggle = true
+			dragStart = input.Position
+			starPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput (input)
+			end
+		end
+	end)
+	
+end
+task.spawn(SCRIPT_4)
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.Place id real.idplace \\ --
+local function SCRIPT_9()
+local script = UI["9"]
+	local k = game.PlaceId
+	
+	
+	
+	script.Parent.Text = k
+end
+task.spawn(SCRIPT_9)
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.Copy place id.Copyid \\ --
+local function SCRIPT_b()
+local script = UI["b"]
+	
+	
+	
+	script.Parent.MouseButton1Up:Connect(function()
+		
+		local placeId = game.PlaceId
+		
+		
+		setclipboard(tostring(placeId)) 
+		
+	end)
+end
+task.spawn(SCRIPT_b)
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.CFrame.Cframeofplayer \\ --
+local function SCRIPT_e()
+local script = UI["e"]
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local textLabel = script.Parent 
+	
+	local function updateCFrame()
+		while true do
+			local cframe = character.HumanoidRootPart.CFrame 
+			textLabel.Text = tostring(cframe)
+			wait(1)
+		end
+	end
+	
+	updateCFrame()
+end
+task.spawn(SCRIPT_e)
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.Copy CFrame of player.CopyCf \\ --
+local function SCRIPT_10()
+local script = UI["10"]
+	
+	
+	
+	script.Parent.MouseButton1Up:Connect(function()
+		
+		local s = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		
+		
+		setclipboard(tostring(s)) 
+		
+	end)
+end
+task.spawn(SCRIPT_10)
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.Dex (new).New dex \\ --
+local function SCRIPT_13()
+local script = UI["13"]
+	script.Parent.MouseButton1Up:Connect(function()
+		
+		
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EqHubv2/Makescript/refs/heads/main/Dexv4/Bymoon/Loaded",true))()
+	end)
+end
+task.spawn(SCRIPT_13)
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.Dex (old).Old dex \\ --
+local function SCRIPT_15()
+local script = UI["15"]
+	script.Parent.MouseButton1Up:Connect(function()
+		
+		
+		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt",true))()
+	end)
+end
+task.spawn(SCRIPT_15)
+-- // StarterGui.PLEASE MAN DON'T DELETE.HMMM.simple spy.Simple spy v3 \\ --
+local function SCRIPT_17()
+local script = UI["17"]
+	script.Parent.MouseButton1Up:Connect(function()
+		
+		
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/refs/heads/main/SimpleSpySource.lua",true))()
+	end)
+end
+task.spawn(SCRIPT_17)
+
+return UI["1"], require;
